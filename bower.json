@@ -1,5 +1,5 @@
 { "name": "tidy"
-, "version": "0.0.4"
+, "version": "0.0.5"
 , "description": "A focused CSS library for tidy typesetting."
 , "authors":
   [ { "name": "Tomek Wiszniewski"
