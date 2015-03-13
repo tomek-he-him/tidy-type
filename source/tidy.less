@@ -1,23 +1,18 @@
 @import "./tidy/settings";
 
 
-.tidy-margins:before,
-.tidy-margins:after {
-  display: table;
-  height: 0;
+.tidy-base () {
+  &:extend(.tidy-reset);
   }
 
 
-.tidy-padding {
+.tidy-reset {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 0 transparent solid;
+  border-bottom: 0 transparent solid;
   padding-top: 0;
   padding-bottom: 0;
-  }
-
-
-.tidy-base () {
-  &:extend(.tidy-padding);
-  &:before {&:extend(.tidy-margins:before);}
-  &:after {&:extend(.tidy-margins:after);}
   }
 
 
@@ -27,8 +22,8 @@
   font-size: @tidy-p-font-size * @tidy-base;
   line-height: @tidy-p-line-height * @tidy-baseline;
 
-  margin-top: @tidy-p-lines-above * @tidy-baseline;
-  margin-bottom: @tidy-p-lines-above * @tidy-baseline;
+  border-top-width: @tidy-p-lines-above * @tidy-baseline;
+  border-bottom-width: @tidy-p-lines-above * @tidy-baseline;
   }
 
 
@@ -38,8 +33,8 @@
   font-size: @tidy-h4-font-size * @tidy-base;
   line-height: @tidy-h4-line-height * @tidy-baseline;
 
-  margin-top: @tidy-h4-lines-above * @tidy-baseline;
-  margin-bottom: @tidy-h4-lines-above * @tidy-baseline;
+  border-top-width: @tidy-h4-lines-above * @tidy-baseline;
+  border-bottom-width: @tidy-h4-lines-above * @tidy-baseline;
   }
 
 
@@ -49,8 +44,8 @@
   font-size: @tidy-h3-font-size * @tidy-base;
   line-height: @tidy-h3-line-height * @tidy-baseline;
 
-  margin-top: @tidy-h3-lines-above * @tidy-baseline;
-  margin-bottom: @tidy-h3-lines-above * @tidy-baseline;
+  border-top-width: @tidy-h3-lines-above * @tidy-baseline;
+  border-bottom-width: @tidy-h3-lines-above * @tidy-baseline;
   }
 
 
@@ -60,8 +55,8 @@
   font-size: @tidy-h2-font-size * @tidy-base;
   line-height: @tidy-h2-line-height * @tidy-baseline;
 
-  margin-top: @tidy-h2-lines-above * @tidy-baseline;
-  margin-bottom: @tidy-h2-lines-above * @tidy-baseline;
+  border-top-width: @tidy-h2-lines-above * @tidy-baseline;
+  border-bottom-width: @tidy-h2-lines-above * @tidy-baseline;
   }
 
 
@@ -71,6 +66,6 @@
   font-size: @tidy-h1-font-size * @tidy-base;
   line-height: @tidy-h1-line-height * @tidy-baseline;
 
-  margin-top: @tidy-h1-lines-above * @tidy-baseline;
-  margin-bottom: @tidy-h1-lines-above * @tidy-baseline;
+  border-top-width: @tidy-h1-lines-above * @tidy-baseline;
+  border-bottom-width: @tidy-h1-lines-above * @tidy-baseline;
   }

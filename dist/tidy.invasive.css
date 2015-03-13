@@ -1,45 +1,4 @@
-.tidy-margins:before,
-.tidy-margins:after,
-.tidy-p:before,
-.tidy-p:after,
-.tidy-h4:before,
-.tidy-h4:after,
-.tidy-h3:before,
-.tidy-h3:after,
-.tidy-h2:before,
-.tidy-h2:after,
-.tidy-h1:before,
-.tidy-h1:after,
-p:before,
-ul:before,
-ol:before,
-dl:before,
-pre:before,
-blockquote:before,
-p:after,
-ul:after,
-ol:after,
-dl:after,
-pre:after,
-blockquote:after,
-h4:before,
-h5:before,
-h6:before,
-dt:before,
-h4:after,
-h5:after,
-h6:after,
-dt:after,
-h3:before,
-h3:after,
-h2:before,
-h2:after,
-h1:before,
-h1:after {
-  display: table;
-  height: 0;
-}
-.tidy-padding,
+.tidy-reset,
 .tidy-p,
 .tidy-h4,
 .tidy-h3,
@@ -58,6 +17,10 @@ dt,
 h3,
 h2,
 h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 0 transparent solid;
+  border-bottom: 0 transparent solid;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -70,8 +33,8 @@ pre,
 blockquote {
   font-size: 1rem;
   line-height: 1.5rem;
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+  border-top-width: 0.75rem;
+  border-bottom-width: 0.75rem;
 }
 .tidy-h4,
 h4,
@@ -80,27 +43,27 @@ h6,
 dt {
   font-size: 1rem;
   line-height: 1.5rem;
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+  border-top-width: 0.75rem;
+  border-bottom-width: 0.75rem;
 }
 .tidy-h3,
 h3 {
   font-size: 1.61803399rem;
   line-height: 3rem;
-  margin-top: 2.25rem;
-  margin-bottom: 2.25rem;
+  border-top-width: 2.25rem;
+  border-bottom-width: 2.25rem;
 }
 .tidy-h2,
 h2 {
   font-size: 2.61803399rem;
   line-height: 4.5rem;
-  margin-top: 3.75rem;
-  margin-bottom: 3.75rem;
+  border-top-width: 3.75rem;
+  border-bottom-width: 3.75rem;
 }
 .tidy-h1,
 h1 {
   font-size: 4.23606798rem;
   line-height: 6.75rem;
-  margin-top: 3.75rem;
-  margin-bottom: 3.75rem;
+  border-top-width: 3.75rem;
+  border-bottom-width: 3.75rem;
 }
