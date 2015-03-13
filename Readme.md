@@ -1,21 +1,22 @@
 Tidy
 ====
 
-A focused CSS library  
-for tidy typesetting.
+ A focused CSS library  
+ for tidy typesetting.
 
-✓ **Ridiculously tiny**. 240 bytes minzipped the last time I checked.
+✓ Ridiculously tiny. 240 bytes minzipped the last time I checked.
 
-✓ **Brings structure**. Professional typographic rhythm, and opt-in typographic plugins:
+✓ Brings structure. Professional typographic rhythm, and opt-in plugins:
 
 * a real baseline grid (coming soon)
-* drop caps (coming soon)
 * professional tables (coming soon)
 * proper sub- and superscripts (coming soon)
+* drop caps (coming soon)
+* rules and borders (coming soon)
 
-✓ **Works out of the box** with any font, any layout, any stylesheet, and any framework.
+✓ Works out of the box. With any font, any layout, any stylesheet, and any framework.
 
-✓ **Tweakable**. If you're pedantic like me, you can fine-tune every single aspect of it.
+✓ Tweakable. If you're pedantic like me, you can fine-tune every single aspect of it.
 
 
 Online *typesetting*?
@@ -27,19 +28,17 @@ A typesetter had an eye for proportion, excellent manual skills, and lots of pat
 
 CSS has never had any typesetting tools. So getting it right has meant a lot of manual labour – much like in the old times. [This article by Espen Brunborg][1] should give you an idea.
 
-[1]: http://www.smashingmagazine.com/2012/12/17/css-baseline-the-good-the-bad-and-the-ugly/
+[1]: http://www.smashingmagazine.com/2012/12/17/css-baseline-the-good-the-bad-and-the-ugly/  "CSS Baseline: The Good, The Bad And The Ugly"
 
 
 A CSS *library*?
 ----------------
 
-There are swarms of CSS frameworks out there – some of them already solve the problem of typesetting.
+There are swarms of CSS frameworks out there – some of them already solve the problem of typesetting to some extent. But why pull in over 100 kB of CSS when you just need one or two simple solutions?
 
-Tidy is different. It's not a framework – it's a CSS library.
+Tidy is different. It's not a framework – it's a CSS library. It solves just one complex problem – online typesetting.
 
-Tidy solves just one complex problem – online typesetting. It does one thing and does it well.
-
-Tidy doesn't provide a solution for anything else than that. But it integrates well with your stylesheets, and with any existing CSS framework.
+Tidy does one thing and does it well. It integrates well with your stylesheets, and with any existing CSS framework.
 
 
 *Focused*?
