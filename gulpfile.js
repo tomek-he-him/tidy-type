@@ -5,6 +5,7 @@ var gulp = require("gulp");
 var less = require("gulp-less");
 var minifyCSS = require("gulp-minify-css");
 var rename = require("gulp-rename");
+var zip = require("gulp-zip");
 
 
 gulp.task("build"
@@ -23,4 +24,14 @@ gulp.task("build"
 
 gulp.task("build:clean", function (done) {
   del("dist", done);
+  });
+
+
+gulp.task("release", ["build"], function () {
+  var manifest = require("./package.json");
+
+  return gulp.src(manifest.files, {base: "."})
+    .pipe(zip(manifest.name + "-v" + manifest.version + ".zip"))
+    .pipe(gulp.dest("."))
+    ;
   });

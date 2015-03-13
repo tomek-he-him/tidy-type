@@ -12,12 +12,13 @@
   , "gulp-less": "3.0.1"
   , "gulp-minify-css": "1.0.0"
   , "gulp-rename": "1.2.0"
+  , "gulp-zip": "2.0.3"
   }
 
 , "files":
-  [ "/dist/"
-  , "/source/"
-  , "/Readme.md"
+  [ "dist/**/*"
+  , "source/**/*"
+  , "Readme.md"
   ]
 
 , "author":
