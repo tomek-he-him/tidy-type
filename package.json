@@ -13,6 +13,12 @@
   , "gulp-rename": "1.2.0"
   }
 
+, "files":
+  [ "/dist/"
+  , "/source/"
+  , "/Readme.md"
+  ]
+
 , "author":
   { "name": "Tomek Wiszniewski"
   , "email": "t.wiszniewski@gmail.com"
