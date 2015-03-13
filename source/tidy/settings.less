@@ -1,0 +1,49 @@
+@tidy-base                   : 1rem;
+@tidy-baseline               : 0.75rem;
+@tidy-proportion             : 1.61803398875;  // (The golden ratio φ)
+
+
+@tidy-p-font-size            : 1;
+@tidy-p-line-height          : 2;
+@tidy-p-lines-above          : 1;
+@tidy-p-lines-below          : 1;
+
+
+@tidy-h4-font-size           : @tidy-p-font-size;
+@tidy-h4-line-height         : ceil(
+    @tidy-h4-font-size
+  / @tidy-p-font-size
+  * @tidy-p-line-height
+  );
+@tidy-h4-lines-above         : @tidy-p-lines-above;
+@tidy-h4-lines-below         : @tidy-p-lines-below;
+
+
+@tidy-h3-font-size           : @tidy-h4-font-size * @tidy-proportion;
+@tidy-h3-line-height         : ceil(
+    @tidy-h3-font-size
+  / @tidy-p-font-size
+  * @tidy-p-line-height
+  );
+@tidy-h3-lines-above         : 3;
+@tidy-h3-lines-below         : @tidy-p-lines-below;
+
+
+@tidy-h2-font-size           : @tidy-h3-font-size * @tidy-proportion;
+@tidy-h2-line-height         : ceil(
+    @tidy-h2-font-size
+  / @tidy-p-font-size
+  * @tidy-p-line-height
+  );
+@tidy-h2-lines-above         : 5;
+@tidy-h2-lines-below         : @tidy-p-lines-below;
+
+
+@tidy-h1-font-size           : @tidy-h2-font-size * @tidy-proportion;
+@tidy-h1-line-height         : ceil(
+    @tidy-h1-font-size
+  / @tidy-p-font-size
+  * @tidy-p-line-height
+  );
+@tidy-h1-lines-above         : 5;
+@tidy-h1-lines-below         : @tidy-p-lines-below;

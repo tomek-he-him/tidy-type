@@ -1,0 +1,75 @@
+@import "./tidy/settings";
+
+.tidy-margins:before,
+.tidy-margins:after {
+    display: table;
+    height: 0;
+    }
+
+
+.tidy-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+
+
+.tidy-base () {
+    &:extend(.tidy-padding);
+    &:before {&:extend(.tidy-margins:before);}
+    &:after {&:extend(.tidy-margins:after);}
+    }
+
+
+.tidy-p {
+    .tidy-base();
+
+    font-size: @tidy-p-font-size * @tidy-base;
+    line-height: @tidy-p-line-height * @tidy-baseline;
+
+    margin-top: @tidy-p-lines-above * @tidy-baseline;
+    margin-bottom: @tidy-p-lines-above * @tidy-baseline;
+    }
+
+
+.tidy-h4 {
+    .tidy-base();
+
+    font-size: @tidy-h4-font-size * @tidy-base;
+    line-height: @tidy-h4-line-height * @tidy-baseline;
+
+    margin-top: @tidy-h4-lines-above * @tidy-baseline;
+    margin-bottom: @tidy-h4-lines-above * @tidy-baseline;
+    }
+
+
+.tidy-h3 {
+    .tidy-base();
+
+    font-size: @tidy-h3-font-size * @tidy-base;
+    line-height: @tidy-h3-line-height * @tidy-baseline;
+
+    margin-top: @tidy-h3-lines-above * @tidy-baseline;
+    margin-bottom: @tidy-h3-lines-above * @tidy-baseline;
+    }
+
+
+.tidy-h2 {
+    .tidy-base();
+
+    font-size: @tidy-h2-font-size * @tidy-base;
+    line-height: @tidy-h2-line-height * @tidy-baseline;
+
+    margin-top: @tidy-h2-lines-above * @tidy-baseline;
+    margin-bottom: @tidy-h2-lines-above * @tidy-baseline;
+    }
+
+
+.tidy-h1 {
+    .tidy-base();
+
+    font-size: @tidy-h1-font-size * @tidy-base;
+    line-height: @tidy-h1-line-height * @tidy-baseline;
+
+    margin-top: @tidy-h1-lines-above * @tidy-baseline;
+    margin-bottom: @tidy-h1-lines-above * @tidy-baseline;
+    }
