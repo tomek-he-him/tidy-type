@@ -1,5 +1,6 @@
 { "name": "tidy-css"
 , "version": "0.1.0"
+, "description": "A focused CSS library for tidy typesetting."
 
 , "scripts":
   { "prepublish": "gulp build"
@@ -11,4 +12,10 @@
   , "gulp-minify-css": "1.0.0"
   , "gulp-rename": "1.2.0"
   }
+
+, "author":
+  { "name": "Tomek Wiszniewski"
+  , "email": "t.wiszniewski@gmail.com"
+  }
+, "repository": "git@github.com/tomekwi/tidy.css"
 }
