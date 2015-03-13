@@ -1,0 +1,13 @@
+{ "name": "tidy"
+, "version": "0.0.3"
+, "description": "A focused CSS library for tidy typesetting."
+, "authors":
+  [ { "name": "Tomek Wiszniewski"
+    , "email": "t.wiszniewski@gmail.com"
+    }
+  ]
+, "repository":
+  { "type": "git"
+  , "url": "git@github.com/tomekwi/tidy.css"
+  }
+}

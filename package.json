@@ -25,5 +25,8 @@
   { "name": "Tomek Wiszniewski"
   , "email": "t.wiszniewski@gmail.com"
   }
-, "repository": "git@github.com/tomekwi/tidy.css"
+, "repository":
+  { "type": "git"
+  , "url": "git@github.com/tomekwi/tidy.css"
+  }
 }
