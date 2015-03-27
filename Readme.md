@@ -38,7 +38,7 @@ But CSS has never had any typesetting tools. So getting it right has meant a lot
 A CSS *library*?
 ----------------
 
-*Type* is not a CSS framework. There are swarms of them out there – and few of them solve the problem of typesetting.
+*Type* is not a CSS framework. There are swarms of them out there – and few really tackle the problem of typesetting.
 
 *Type* is different. It's not a framework – it's a CSS library. It solves just one complex problem – online typesetting.
 
