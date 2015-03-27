@@ -1,5 +1,5 @@
 { "name": "type-css"
-, "version": "0.0.6"
+, "version": "0.0.7"
 , "description": "A focused CSS library for tidy typesetting."
 , "authors":
   [ { "name": "Tomek Wiszniewski"
