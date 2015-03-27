@@ -34,6 +34,8 @@ Today typesetting is almost always done digitally, with very powerful tools like
 
 But CSS has never had any typesetting tools. So getting it right has meant a lot of manual labour – much like in the old times. [This article by Espen Brunborg][1] should give you an idea.
 
+If you're interested, there's some more reading [here](./For the curious.md).
+
 [1]: http://www.smashingmagazine.com/2012/12/17/css-baseline-the-good-the-bad-and-the-ugly/  "CSS Baseline: The Good, The Bad And The Ugly"
 
 
