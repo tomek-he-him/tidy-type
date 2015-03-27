@@ -1,12 +1,14 @@
 Tidy
 ====
 
- A focused CSS library  
- for tidy typesetting.
+ **A focused CSS library**  
+ **for tidy typesetting.**
 
-✓ Ridiculously tiny. 240 bytes minzipped the last time I checked.
+✓ Ridiculously tiny.  
+ 240 bytes minzipped the last time I checked.
 
-✓ Brings structure. Professional typographic rhythm, and opt-in plugins:
+✓ Brings structure.  
+ Professional typographic rhythm, and opt-in plugins:
 
 * a real baseline grid (coming soon)
 * professional tables (coming soon)
@@ -14,19 +16,21 @@ Tidy
 * drop caps (coming soon)
 * rules and borders (coming soon)
 
-✓ Works out of the box. With any font, any layout, any stylesheet, and any framework.
+✓ Just works.  
+ Out of the box. With any font, any layout, any stylesheet, and any framework.
 
-✓ Tweakable. If you're pedantic like me, you can fine-tune every single aspect of it.
+✓ Tweakable.  
+ If you're pedantic like me, you can fine-tune every single aspect of it.
 
 
 Online *typesetting*?
 ---------------------
 
-In its original sense, typesetting is the art of arranging cast metal sorts (characters) and slugs (spaces) into lines. These lines would then be clustered together into a forme and transfer ink onto a page.
+In its original sense, typesetting is the art of arranging cast metal sorts (characters) and slugs (spaces) into lines. These lines would then be clustered together into a forme to transfer ink onto a page. A typesetter needed an eye for proportion, excellent manual skills, and lots of patience.
 
-A typesetter had an eye for proportion, excellent manual skills, and lots of patience. Today typesetting is almost always done digitally, with very powerful tools like Adobe InDesign.
+Today typesetting is almost always done digitally, with very powerful tools like Adobe InDesign.
 
-CSS has never had any typesetting tools. So getting it right has meant a lot of manual labour – much like in the old times. [This article by Espen Brunborg][1] should give you an idea.
+But CSS has never had any typesetting tools. So getting it right has meant a lot of manual labour – much like in the old times. [This article by Espen Brunborg][1] should give you an idea.
 
 [1]: http://www.smashingmagazine.com/2012/12/17/css-baseline-the-good-the-bad-and-the-ugly/  "CSS Baseline: The Good, The Bad And The Ugly"
 
