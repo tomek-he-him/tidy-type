@@ -5,7 +5,7 @@ Tidy
  **for tidy typesetting.**
 
 ✓ Ridiculously tiny.  
- 240 bytes minzipped the last time I checked.
+  240 bytes minzipped the last time I checked.
 
 ✓ Brings structure.  
  Professional typographic rhythm, and opt-in plugins:
