@@ -1,4 +1,4 @@
-{ "name": "tidy"
+{ "name": "type-css"
 , "version": "0.0.6"
 , "description": "A focused CSS library for tidy typesetting."
 , "authors":
@@ -8,6 +8,6 @@
   ]
 , "repository":
   { "type": "git"
-  , "url": "git@github.com/tomekwi/tidy.css"
+  , "url": "git@github.com/tomekwi/type.css"
   }
 }

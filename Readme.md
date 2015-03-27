@@ -1,4 +1,4 @@
-Tidy
+Type
 ====
 
   **A focused CSS library**  
@@ -23,8 +23,8 @@ Tidy
   If you're pedantic like me, you can fine-tune every single aspect of it.
 
 
-Online *typesetting*?
----------------------
+CSS *typesetting*?
+------------------
 
 In its original sense, typesetting is the art of arranging cast metal sorts (characters) and slugs (spaces) into lines. These lines would then be clustered together into a forme to transfer ink onto a page. A typesetter needed an eye for proportion, excellent manual skills, and lots of patience.
 
@@ -38,17 +38,17 @@ But CSS has never had any typesetting tools. So getting it right has meant a lot
 A CSS *library*?
 ----------------
 
-There are swarms of CSS frameworks out there – some of them already solve the problem of typesetting to some extent. But why pull in over 100 kB of CSS when you just need one or two simple solutions?
+*Type* is not a CSS framework. There are swarms of them out there – and few of them solve the problem of typesetting.
 
-Tidy is different. It's not a framework – it's a CSS library. It solves just one complex problem – online typesetting.
+*Type* is different. It's not a framework – it's a CSS library. It solves just one complex problem – online typesetting.
 
-Tidy does one thing and does it well. It integrates well with your stylesheets, and with any existing CSS framework.
+*Type* does one thing and does it well. It integrates well with your stylesheets, and with any existing CSS framework.
 
 
 *Focused*?
 --------
 
-Tidy is focused on the single problem it solves. In most cases it will set no more than four properties:
+*Type* is focused on the single problem it solves. In most cases it will set no more than four properties:
 
 * the font size
 * the line height
