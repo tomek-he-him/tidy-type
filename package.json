@@ -4,6 +4,7 @@
 
 , "scripts":
   { "prepublish": "gulp build"
+  , "changelog": "github_changelog_generator --user tomekwi --project type.css --output Changelog.md  # Requires https://github.com/skywinder/github-changelog-generator"
   }
 
 , "devDependencies":
