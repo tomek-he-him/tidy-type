@@ -1,8 +1,12 @@
 # Change Log
 
-## [Unreleased](https://github.com/tomekwi/type.css/tree/HEAD)
+## [v0.1.0](https://github.com/tomekwi/type.css/tree/v0.1.0) (2015-03-27)
 
 [Full Changelog](https://github.com/tomekwi/type.css/compare/v0.0.7...HEAD)
+
+**Implemented enhancements:**
+
+- Add a changelog [\#2](https://github.com/tomekwi/type.css/issues/2)
 
 **Closed issues:**
 
