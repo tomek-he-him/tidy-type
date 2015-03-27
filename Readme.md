@@ -20,7 +20,7 @@ Type.css
   Out of the box. With any font, any layout, any stylesheet, and any framework.
 
 ✓ Tweakable.  
-  If you're pedantic like me, you can fine-tune every single aspect of it.
+  If you’re pedantic like me, you can fine-tune every single aspect of it.
 
 
 
@@ -34,7 +34,7 @@ Today typesetting is almost always done digitally, with very powerful tools like
 
 But CSS has never had any typesetting tools. So getting it right has meant a lot of manual labour – much like in the old times. [This article by Espen Brunborg][1] should give you an idea.
 
-If you're interested, there's some more reading [here](./For the curious.md).
+If you’re interested, there’s some more reading [here](./For the curious.md).
 
 [1]: http://www.smashingmagazine.com/2012/12/17/css-baseline-the-good-the-bad-and-the-ugly/  "CSS Baseline: The Good, The Bad And The Ugly"
 
@@ -46,7 +46,7 @@ A CSS *library*?
 
 *Type.css* is not a CSS framework. There are swarms of them out there – and few really tackle the problem of typesetting.
 
-*Type.css* is different. It's not a framework – it's a CSS library. It solves just one complex problem – online typesetting.
+*Type.css* is different. It’s not a framework – it’s a CSS library. It solves just one complex problem – online typesetting.
 
 *Type.css* does one thing and does it well. It integrates well with your stylesheets, and with any existing CSS framework.
 
@@ -63,7 +63,7 @@ A CSS *library*?
 * top and bottom padding
 * top and bottom margins
 
-All the rest is up to you or up to the framework you're using.
+All the rest is up to you or up to the framework you’re using.
 
 
 
