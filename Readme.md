@@ -1,14 +1,14 @@
 Tidy
 ====
 
- **A focused CSS library**  
- **for tidy typesetting.**
+  **A focused CSS library**  
+  **for tidy typesetting.**
 
 ✓ Ridiculously tiny.  
-  240 bytes minzipped the last time I checked.
+  240 bytes minzipped the last time I checked.
 
 ✓ Brings structure.  
- Professional typographic rhythm, and opt-in plugins:
+  Professional typographic rhythm, and opt-in plugins:
 
 * a real baseline grid (coming soon)
 * professional tables (coming soon)
@@ -17,10 +17,10 @@ Tidy
 * rules and borders (coming soon)
 
 ✓ Just works.  
- Out of the box. With any font, any layout, any stylesheet, and any framework.
+  Out of the box. With any font, any layout, any stylesheet, and any framework.
 
 ✓ Tweakable.  
- If you're pedantic like me, you can fine-tune every single aspect of it.
+  If you're pedantic like me, you can fine-tune every single aspect of it.
 
 
 Online *typesetting*?
