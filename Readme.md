@@ -1,5 +1,5 @@
-Type
-====
+Type.css
+========
 
   **A focused CSS library**  
   **for tidy typesetting.**
@@ -13,14 +13,16 @@ Type
 * a real baseline grid (coming soon)
 * professional tables (coming soon)
 * proper sub- and superscripts (coming soon)
-* drop caps (coming soon)
 * rules and borders (coming soon)
+* drop caps (coming soon, if needed)
 
 ✓ Just works.  
   Out of the box. With any font, any layout, any stylesheet, and any framework.
 
 ✓ Tweakable.  
   If you're pedantic like me, you can fine-tune every single aspect of it.
+
+
 
 
 CSS *typesetting*?
@@ -35,20 +37,24 @@ But CSS has never had any typesetting tools. So getting it right has meant a lot
 [1]: http://www.smashingmagazine.com/2012/12/17/css-baseline-the-good-the-bad-and-the-ugly/  "CSS Baseline: The Good, The Bad And The Ugly"
 
 
+
+
 A CSS *library*?
 ----------------
 
-*Type* is not a CSS framework. There are swarms of them out there – and few really tackle the problem of typesetting.
+*Type.css* is not a CSS framework. There are swarms of them out there – and few really tackle the problem of typesetting.
 
-*Type* is different. It's not a framework – it's a CSS library. It solves just one complex problem – online typesetting.
+*Type.css* is different. It's not a framework – it's a CSS library. It solves just one complex problem – online typesetting.
 
-*Type* does one thing and does it well. It integrates well with your stylesheets, and with any existing CSS framework.
+*Type.css* does one thing and does it well. It integrates well with your stylesheets, and with any existing CSS framework.
+
+
 
 
 *Focused*?
 --------
 
-*Type* is focused on the single problem it solves. In most cases it will set no more than four properties:
+*Type.css* is focused on the single problem it solves. In most cases it will set no more than four properties:
 
 * the font size
 * the line height
@@ -56,6 +62,8 @@ A CSS *library*?
 * top and bottom margins
 
 All the rest is up to you or up to the framework you're using.
+
+
 
 
 Usage
