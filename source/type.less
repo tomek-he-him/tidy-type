@@ -1,0 +1,71 @@
+@import "./type/settings";
+
+
+.type-base () {
+  &:extend(.type-reset);
+  }
+
+
+.type-reset {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 0 transparent solid;
+  border-bottom: 0 transparent solid;
+  padding-top: 0;
+  padding-bottom: 0;
+  }
+
+
+.type-p {
+  .type-base();
+
+  font-size: @type-p-font-size * @type-base;
+  line-height: @type-p-line-height * @type-baseline;
+
+  border-top-width: @type-p-lines-above * @type-baseline;
+  border-bottom-width: @type-p-lines-above * @type-baseline;
+  }
+
+
+.type-h4 {
+  .type-base();
+
+  font-size: @type-h4-font-size * @type-base;
+  line-height: @type-h4-line-height * @type-baseline;
+
+  border-top-width: @type-h4-lines-above * @type-baseline;
+  border-bottom-width: @type-h4-lines-above * @type-baseline;
+  }
+
+
+.type-h3 {
+  .type-base();
+
+  font-size: @type-h3-font-size * @type-base;
+  line-height: @type-h3-line-height * @type-baseline;
+
+  border-top-width: @type-h3-lines-above * @type-baseline;
+  border-bottom-width: @type-h3-lines-above * @type-baseline;
+  }
+
+
+.type-h2 {
+  .type-base();
+
+  font-size: @type-h2-font-size * @type-base;
+  line-height: @type-h2-line-height * @type-baseline;
+
+  border-top-width: @type-h2-lines-above * @type-baseline;
+  border-bottom-width: @type-h2-lines-above * @type-baseline;
+  }
+
+
+.type-h1 {
+  .type-base();
+
+  font-size: @type-h1-font-size * @type-base;
+  line-height: @type-h1-line-height * @type-baseline;
+
+  border-top-width: @type-h1-lines-above * @type-baseline;
+  border-bottom-width: @type-h1-lines-above * @type-baseline;
+  }
