@@ -1,8 +1,16 @@
 # Change Log
 
+## [v0.1.1](https://github.com/tomekwi/type.css/tree/v0.1.1) (2015-07-08)
+
+[Full Changelog](https://github.com/tomekwi/type.css/compare/v0.1.0...v0.1.1)
+
+**Closed issues:**
+
+- Incorrect bottom padding [\#12](https://github.com/tomekwi/type.css/issues/12)
+
 ## [v0.1.0](https://github.com/tomekwi/type.css/tree/v0.1.0) (2015-03-27)
 
-[Full Changelog](https://github.com/tomekwi/type.css/compare/v0.0.7...HEAD)
+[Full Changelog](https://github.com/tomekwi/type.css/compare/v0.0.7...v0.1.0)
 
 **Implemented enhancements:**
 
