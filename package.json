@@ -4,6 +4,7 @@
 , "scripts":
   { "diffy-package": "format-json package.json > .temp; mve .temp package.json"
   , "changelog": "github_changelog_generator --user tomekwi --project type.css --output Changelog.md  # Requires https://github.com/skywinder/github-changelog-generator"
+  , "postversion": "npm run diffy-package"
   , "precommit": "gulp build && git add dist"
   , "prepublish": "gulp build"
   }
