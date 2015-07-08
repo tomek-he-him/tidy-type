@@ -1,26 +1,22 @@
 { "name": "type-css"
 , "version": "0.1.0"
 , "description": "A focused CSS library for tidy typesetting."
-
 , "scripts":
   { "prepublish": "gulp build"
   , "changelog": "github_changelog_generator --user tomekwi --project type.css --output Changelog.md  # Requires https://github.com/skywinder/github-changelog-generator"
   }
-
 , "devDependencies":
-  { "del": "1.1.1"
-  , "gulp": "3.8.11"
-  , "gulp-less": "3.0.1"
-  , "gulp-minify-css": "1.0.0"
-  , "gulp-rename": "1.2.0"
+  { "del": "^1.2.0"
+  , "gulp": "^3.9.0"
+  , "gulp-less": "^3.0.3"
+  , "gulp-minify-css": "^1.2.0"
+  , "gulp-rename": "^1.2.2"
   }
-
 , "files":
   [ "dist/**/*"
   , "source/**/*"
   , "Readme.md"
   ]
-
 , "author":
   { "name": "Tomek Wiszniewski"
   , "email": "t.wiszniewski@gmail.com"
