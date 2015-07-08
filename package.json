@@ -3,7 +3,9 @@
 , "description": "A focused CSS library for tidy typesetting."
 , "scripts":
   { "diffy-package": "format-json package.json > .temp; mve .temp package.json"
-  , "changelog": "github_changelog_generator --user tomekwi --project type.css --output Changelog.md  # Requires https://github.com/skywinder/github-changelog-generator"
+  , "changelog": "npm run ensure-clean-repo && npm run changelog:generate && git add Changelog.md && git commit --message='Update the changelog'"
+  , "changelog:generate": "github_changelog_generator --user tomekwi --project type.css --output Changelog.md  # Requires https://github.com/skywinder/github-changelog-generator"
+  , "ensure-clean-repo": "if [ -n \"$(git status --porcelain)\" ]; then echo 'Ooops-a-daisy! Make sure the repo is clean.'; exit 1; fi"
   , "precommit": "gulp build && git add dist"
   , "prepublish": "gulp build"
   }
