@@ -2,21 +2,19 @@
 , "version": "0.1.2"
 , "description": "A focused CSS library for tidy typesetting."
 , "scripts":
-  { "diffy-package": "format-json package.json > .temp; mve .temp package.json"
+  { "build": "lessc source/tidy-type.less > dist/tidy-type.css && cleancss dist/tidy-type.css > dist/tidy-type.min.css"
+  , "diffy-package": "format-json package.json > .temp; mve .temp package.json"
   , "changelog": "npm run ensure-clean-repo && npm run changelog:generate && git add Changelog.md && git commit --message='Update the changelog'"
   , "changelog:generate": "github_changelog_generator --user tomekwi --project tidy-type --output Changelog.md  # Requires https://github.com/skywinder/github-changelog-generator"
   , "ensure-clean-repo": "if [ -n \"$(git status --porcelain)\" ]; then echo 'Ooops-a-daisy! Make sure the repo is clean.'; exit 1; fi"
-  , "precommit": "gulp build && git add dist; npm run diffy-package && git add package.json"
-  , "prepublish": "gulp build"
+  , "precommit": "npm run build && git add dist; npm run diffy-package && git add package.json"
+  , "prepublish": "npm run build"
   }
 , "devDependencies":
-  { "del": "1.2.0"
+  { "clean-css": "3.3.5"
   , "format-json": "1.0.3"
-  , "gulp": "3.9.0"
-  , "gulp-less": "3.0.3"
-  , "gulp-minify-css": "1.2.0"
-  , "gulp-rename": "1.2.2"
   , "husky": "0.8.1"
+  , "less": "2.5.1"
   , "mve": "0.1.2"
   }
 , "files":
