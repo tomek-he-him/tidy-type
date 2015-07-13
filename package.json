@@ -2,7 +2,7 @@
 , "version": "0.1.2"
 , "description": "A focused CSS library for tidy typesetting."
 , "scripts":
-  { "build": "lessc source/tidy-type.less > dist/tidy-type.css && cleancss dist/tidy-type.css > dist/tidy-type.min.css"
+  { "build": "(echo -n '/*! http://npm.im/tidy-type v'; json version < package.json | tr -d '\n'; echo ' */\n'; lessc source/tidy-type.less) > dist/tidy-type.css && cleancss dist/tidy-type.css > dist/tidy-type.min.css"
   , "changelog": "npm run ensure-clean-repo && npm run changelog:generate && git add Changelog.md && git commit --message='Update the changelog'"
   , "changelog:generate": "github_changelog_generator --user tomekwi --project tidy-type --output Changelog.md  # Requires https://github.com/skywinder/github-changelog-generator"
   , "diffy-package": "format-json package.json > .temp; mve .temp package.json"
@@ -20,6 +20,7 @@
   { "clean-css": "3.3.5"
   , "format-json": "1.0.3"
   , "husky": "0.8.1"
+  , "json": "9.0.3"
   , "less": "2.5.1"
   , "mve": "0.1.2"
   }
