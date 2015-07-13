@@ -12,7 +12,7 @@
 
 [Full Changelog](https://github.com/tomekwi/tidy-type/compare/v0.1.0...v0.1.1)
 
-**Closed issues:**
+**Fixed bugs:**
 
 - Incorrect bottom padding [\#12](https://github.com/tomekwi/tidy-type/issues/12)
 
