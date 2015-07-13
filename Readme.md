@@ -1,5 +1,5 @@
-Type.css
-========
+tidy-type
+=========
 
   **A focused CSS library**  
   **for tidy typesetting.**
@@ -44,11 +44,11 @@ If you’re interested, there’s some more reading [here](./For the curious.md)
 A CSS *library*?
 ----------------
 
-*Type.css* is not a CSS framework. There are swarms of them out there – and few really tackle the problem of typesetting.
+*tidy-type* is not a CSS framework. There are swarms of them out there – and few really tackle the problem of typesetting.
 
-*Type.css* is different. It’s not a framework – it’s a CSS library. It solves just one complex problem – online typesetting.
+*tidy-type* is different. It’s not a framework – it’s a CSS library. It solves just one complex problem – online typesetting.
 
-*Type.css* does one thing and does it well. It integrates well with your stylesheets, and with any existing CSS framework.
+It does one thing and does it well. It integrates well with your stylesheets, and with any existing CSS framework.
 
 
 
@@ -56,7 +56,7 @@ A CSS *library*?
 *Focused*?
 --------
 
-*Type.css* is focused on the single problem it solves. In most cases it will set no more than four properties:
+*tidy-type* is focused on the single problem it solves. In most cases it will set no more than four properties:
 
 * the font size
 * the line height

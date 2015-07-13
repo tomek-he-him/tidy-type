@@ -1,7 +1,7 @@
 For the curious
 ===============
 
-*Type.css* didn't pop out of the blue.
+*tidy-type* didn't pop out of the blue.
 
 
 

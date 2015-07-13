@@ -1,58 +1,58 @@
 # Change Log
 
-## [v0.1.2](https://github.com/tomekwi/type-css/tree/v0.1.2) (2015-07-08)
+## [v0.1.2](https://github.com/tomekwi/tidy-type/tree/v0.1.2) (2015-07-08)
 
-[Full Changelog](https://github.com/tomekwi/type-css/compare/v0.1.1...v0.1.2)
-
-**Closed issues:**
-
-- A tighter line-height in headings [\#13](https://github.com/tomekwi/type-css/issues/13)
-
-## [v0.1.1](https://github.com/tomekwi/type-css/tree/v0.1.1) (2015-07-08)
-
-[Full Changelog](https://github.com/tomekwi/type-css/compare/v0.1.0...v0.1.1)
+[Full Changelog](https://github.com/tomekwi/tidy-type/compare/v0.1.1...v0.1.2)
 
 **Closed issues:**
 
-- Incorrect bottom padding [\#12](https://github.com/tomekwi/type-css/issues/12)
+- A tighter line-height in headings [\#13](https://github.com/tomekwi/tidy-type/issues/13)
 
-## [v0.1.0](https://github.com/tomekwi/type-css/tree/v0.1.0) (2015-03-27)
+## [v0.1.1](https://github.com/tomekwi/tidy-type/tree/v0.1.1) (2015-07-08)
 
-[Full Changelog](https://github.com/tomekwi/type-css/compare/v0.0.7...v0.1.0)
+[Full Changelog](https://github.com/tomekwi/tidy-type/compare/v0.1.0...v0.1.1)
+
+**Closed issues:**
+
+- Incorrect bottom padding [\#12](https://github.com/tomekwi/tidy-type/issues/12)
+
+## [v0.1.0](https://github.com/tomekwi/tidy-type/tree/v0.1.0) (2015-03-27)
+
+[Full Changelog](https://github.com/tomekwi/tidy-type/compare/v0.0.7...v0.1.0)
 
 **Implemented enhancements:**
 
-- Add a changelog [\#2](https://github.com/tomekwi/type-css/issues/2)
+- Add a changelog [\#2](https://github.com/tomekwi/tidy-type/issues/2)
 
 **Closed issues:**
 
-- Use padding instead of border for positioning [\#1](https://github.com/tomekwi/type-css/issues/1)
+- Use padding instead of border for positioning [\#1](https://github.com/tomekwi/tidy-type/issues/1)
 
-## [v0.0.7](https://github.com/tomekwi/type-css/tree/v0.0.7) (2015-03-27)
+## [v0.0.7](https://github.com/tomekwi/tidy-type/tree/v0.0.7) (2015-03-27)
 
-[Full Changelog](https://github.com/tomekwi/type-css/compare/v0.0.6...v0.0.7)
+[Full Changelog](https://github.com/tomekwi/tidy-type/compare/v0.0.6...v0.0.7)
 
-## [v0.0.6](https://github.com/tomekwi/type-css/tree/v0.0.6) (2015-03-13)
+## [v0.0.6](https://github.com/tomekwi/tidy-type/tree/v0.0.6) (2015-03-13)
 
-[Full Changelog](https://github.com/tomekwi/type-css/compare/v0.0.5...v0.0.6)
+[Full Changelog](https://github.com/tomekwi/tidy-type/compare/v0.0.5...v0.0.6)
 
-## [v0.0.5](https://github.com/tomekwi/type-css/tree/v0.0.5) (2015-03-13)
+## [v0.0.5](https://github.com/tomekwi/tidy-type/tree/v0.0.5) (2015-03-13)
 
-[Full Changelog](https://github.com/tomekwi/type-css/compare/v0.0.4...v0.0.5)
+[Full Changelog](https://github.com/tomekwi/tidy-type/compare/v0.0.4...v0.0.5)
 
-## [v0.0.4](https://github.com/tomekwi/type-css/tree/v0.0.4) (2015-03-13)
+## [v0.0.4](https://github.com/tomekwi/tidy-type/tree/v0.0.4) (2015-03-13)
 
-[Full Changelog](https://github.com/tomekwi/type-css/compare/v0.0.3...v0.0.4)
+[Full Changelog](https://github.com/tomekwi/tidy-type/compare/v0.0.3...v0.0.4)
 
-## [v0.0.3](https://github.com/tomekwi/type-css/tree/v0.0.3) (2015-03-13)
+## [v0.0.3](https://github.com/tomekwi/tidy-type/tree/v0.0.3) (2015-03-13)
 
-[Full Changelog](https://github.com/tomekwi/type-css/compare/v0.0.2...v0.0.3)
+[Full Changelog](https://github.com/tomekwi/tidy-type/compare/v0.0.2...v0.0.3)
 
-## [v0.0.2](https://github.com/tomekwi/type-css/tree/v0.0.2) (2015-03-13)
+## [v0.0.2](https://github.com/tomekwi/tidy-type/tree/v0.0.2) (2015-03-13)
 
-[Full Changelog](https://github.com/tomekwi/type-css/compare/v0.0.1...v0.0.2)
+[Full Changelog](https://github.com/tomekwi/tidy-type/compare/v0.0.1...v0.0.2)
 
-## [v0.0.1](https://github.com/tomekwi/type-css/tree/v0.0.1) (2015-03-13)
+## [v0.0.1](https://github.com/tomekwi/tidy-type/tree/v0.0.1) (2015-03-13)
 
 
 
