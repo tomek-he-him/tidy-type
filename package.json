@@ -9,6 +9,7 @@
   , "ensure-clean-repo": "if [ -n \"$(git status --porcelain)\" ]; then echo 'Ooops-a-daisy! Make sure the repo is clean.'; exit 1; fi"
   , "precommit": "npm run build && git add dist; npm run diffy-package && git add package.json"
   , "prepublish": "npm run build"
+  , "refresh-dependencies": "npm shrinkwrap && git commit --message='Refresh dependencies' npm-shrinkwrap.json"
   }
 , "devDependencies":
   { "clean-css": "3.3.5"
