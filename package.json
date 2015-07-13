@@ -1,5 +1,5 @@
 { "name": "tidy-type"
-, "version": "0.2.2"
+, "version": "0.2.1"
 , "description": "A focused CSS library for tidy typesetting."
 , "scripts":
   { "build": "(echo -n '/*! http://npm.im/tidy-type v'; json version < package.json | tr -d '\n'; echo ' */\n'; lessc source/tidy-type.less) > dist/tidy-type.css && cleancss dist/tidy-type.css > dist/tidy-type.min.css"
@@ -8,7 +8,7 @@
   , "diffy-package": "format-json package.json > .temp; mve .temp package.json"
   , "ensure-clean-repo": "if [ -n \"$(git status --porcelain)\" ]; then echo 'Ooops-a-daisy! Make sure the repo is clean.'; exit 1; fi"
   , "precommit": "npm run build && git add dist; npm run diffy-package && git add package.json"
-  , "prepublish": "npm shrinkwrap --dev && git add npm-shrinkwrap.json && npm run build"
+  , "prepublish": "npm shrinkwrap --dev && git commit --message='Refresh-dependencies' npm-shrinkwrap.json && npm run build"
   , "release-major": "npm run release:before && npm version major && npm run release:after"
   , "release-minor": "npm run release:before && npm version minor && npm run release:after"
   , "release-patch": "npm run release:before && npm version patch && npm run release:after"
