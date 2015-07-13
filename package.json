@@ -1,5 +1,5 @@
 { "name": "tidy-type"
-, "version": "0.1.2"
+, "version": "0.1.3"
 , "description": "A focused CSS library for tidy typesetting."
 , "scripts":
   { "build": "lessc source/tidy-type.less > dist/tidy-type.css && cleancss dist/tidy-type.css > dist/tidy-type.min.css"
