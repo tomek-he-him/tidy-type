@@ -5,22 +5,28 @@ tidy-type
   **for tidy typesetting.**
 
 ✓ Ridiculously tiny.  
-  240 bytes minzipped the last time I checked.
+  230 bytes minzipped the last time I checked.
 
 ✓ Brings structure.  
   Professional typographic rhythm, and opt-in plugins:
 
-* a real baseline grid (coming soon)
-* professional tables (coming soon)
-* proper sub- and superscripts (coming soon)
-* rules and borders (coming soon)
-* drop caps (coming soon, if needed)
+* [a real baseline grid][] (coming soon)
+* [professional tables][] (coming soon)
+* [proper sub- and superscripts][] (coming soon)
+* [rules and borders][] (coming soon)
+* [drop caps][] (coming soon, if needed)
 
 ✓ Just works.  
   Out of the box. With any font, any layout, any stylesheet, and any framework.
 
 ✓ Tweakable.  
   If you’re pedantic like me, you can fine-tune every single aspect of it.
+
+[a real baseline grid]:          https://github.com/tomekwi/tidy-type/issues/3
+[professional tables]:           https://github.com/tomekwi/tidy-type/issues/4
+[proper sub- and superscripts]:  https://github.com/tomekwi/tidy-type/issues/7
+[rules and borders]:             https://github.com/tomekwi/tidy-type/issues/6
+[drop caps]:                     https://github.com/tomekwi/tidy-type/issues/5
 
 
 
