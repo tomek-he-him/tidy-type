@@ -97,3 +97,14 @@ Then you can customize any sizes and proportions by overriding [our variables][]
 ```
 
 [our variables]:  ./source/settings.less
+
+
+
+
+License
+-------
+
+[MIT][] © [Tomek Wiszniewski][]
+
+[MIT]: ./License.md
+[Tomek Wiszniewski]: https://github.com/tomekwi
