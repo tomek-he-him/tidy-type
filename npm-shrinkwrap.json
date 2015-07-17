@@ -1,6 +1,6 @@
 {
   "name": "tidy-type",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "dependencies": {
     "clean-css": {
       "version": "3.3.5",
