@@ -77,4 +77,23 @@ All the rest is up to you or up to the framework you’re using.
 Usage
 -----
 
-_Work in progress._
+Add the class `tidy-type` to a container element. All `<p>`, `<ul>`, `<ol>`, `<dl>`, `<pre>`, `<blockquote>`, `<h4>`, `<h5>`, `<h6>`, `<dt>`, `<h3>`, `<h2>` and `<h1>` elements inside will be aligned to a typographic grid.
+
+If you want to apply the same styles to another element like a `<div>`, you have the classes `tidy-type--p`, `tidy-type--h4`, `tidy-type--h3`, `tidy-type--h2` and `tidy-type--h1` at hand.
+
+
+
+
+Using LESS?
+-----------
+
+Then you can customize any sizes and proportions by overriding [our variables][]. Here’s how:
+
+```less
+@import 'tidy-type/source/settings';
+
+@tidy-type-proportion:  1.5;      // Perfect fifth
+@tidy-type-grid-unit:   0.85rem;  // Generous 1.7× line height
+```
+
+[our variables]:  ./source/settings.less
